@@ -238,7 +238,7 @@
                                                 Contactate
                                             </p>
                                         </button>
-                                        <form id="contact_form" name="contactform" class="pt-3">
+                                        <form id="contact_form" name="contactform" class="pt-3" netlify>
                                             <label for="name">Nombre</label>
                                             <input type="text" id="name" name="name" placeholder="Ingrese aquí su nombre" class="form-control" autocomplete="off"><br>
 
@@ -248,7 +248,7 @@
                                             <label for="multitext">Escriba aquí su consulta*</label>
                                             <textarea name = "multitext" class="form-control" required></textarea>
                                             <div class="spacing"></div> 
-                                            <button type="submit" id="submit_button" class="rounded">
+                                            <button type="submit" onclick="Validacion()" id="submit_button" class="rounded">
                                                 Enviar
                                             </button>
                                         </form>                                
