@@ -1,0 +1,156 @@
+/*DESPUES ORDENAR TODO ESTO*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../images/wallpaper2.jpeg');
+    background-color: #cccccc;
+   }
+
+
+#navigation_bar, #page_title, #footer {
+    background-color:#1A1E24;
+}
+
+#classes_header, #yoga_header, #about_header {
+    background-color: #0a0b0e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#classes_descriptor, #yoga_descriptor, #about_me_descriptor {
+    background-color: #1A1E24;
+
+}
+
+#back_image {
+    background-color: rgb(141, 181, 214, 0.5);
+    max-width: 652px;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    color: #E1E6EE;
+}
+
+h2 {
+    font-family: 'Merienda';
+    color: #E1E6EE;
+}
+
+p, #a, li {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #c7ccd3;
+}
+
+p {
+    text-align: justify;
+}
+
+
+#trademark {
+    font-size: 0.6em;
+}
+
+.spacing{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(55, 73, 92, 0);
+    
+}
+
+#footer .fab {
+    color: #E1E6EE;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+#classes_row {
+    background-color: rgb(141, 181, 214, 0.5);
+  
+}
+
+#yoga_row {
+    background-color: #69758d7e;
+}
+
+#about_me {
+    background-color: #aebfd970;
+}
+
+.img-thumbnail {
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: none;
+}
+
+#classes_descriptor p {
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+#about_me_descriptor p {
+    padding-left: 35px;
+    padding-right: 10px;
+}
+
+#contact_button {
+
+    border: none;
+
+}
+
+#contact_button p, #submit_button {
+
+    font-family: 'Montserrat Alternates', sans-serif ;
+    color: rgb(55, 73, 92);
+    
+
+}
+
+
+#contact_form {
+
+    display: none;
+    padding-left: 35px;
+    padding-right: 10px;
+
+}
+
+#contact_form label {
+
+    color: #E1E6EE;
+    font-family: 'Montserrat Alternates', sans-serif ;
+
+    
+}
+@media screen and (max-width: 480px) {
+
+    .spacing-cellphones {
+        height: 70px;
+        width: 100%;
+        background-color: rgb(55, 73, 92, 0);
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .spacing-tablets {
+        height: 120px;
+        width: 100%;
+        background-color: rgb(55, 73, 92, 0);
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .spacing-tablets {
+        height: 70px;
+        width: 100%;
+        background-color: rgb(55, 73, 92, 0);
+    }
+}
