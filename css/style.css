@@ -72,6 +72,16 @@ body {
     padding-right: 10px;
 }
 
+.yogatutor_description {
+    background-color: #69758d7e;
+    padding:10px;
+    margin:10px;
+}
+
+.yogatutor_description p {
+    color:rgb(55, 73, 92, 1);
+}
+
 
 /*FONTS*/
 
