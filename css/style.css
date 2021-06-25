@@ -82,6 +82,12 @@ body {
     color:rgb(55, 73, 92, 1);
 }
 
+.button {
+    background-color: rgb(55, 73, 92, 1);
+    border:none;
+    border-radius: 25px;
+    padding:10px
+}
 
 /*FONTS*/
 
@@ -124,6 +130,17 @@ p {
     color: #E1E6EE;
     font-size: 1.5em;
     padding: 10px;
+}
+
+.button {
+    font-family: 'Montserrat Alternates', sans-serif ;
+    font-weight: bold;
+
+}
+
+.button a {
+    color: #E1E6EE;
+
 }
 
 /*ACCESIBILITY*/
